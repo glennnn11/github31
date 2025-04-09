@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "glenn_bucket" {
-  bucket = "glenn-bucket-gh"
+  bucket = "glenn-bucket-gh1"
   acl    = "private"
 }
